@@ -4,6 +4,9 @@
     "scripts": {
         "initialize": [
             "@composer require symfony/flex"
+        ],
+        "security:check": [
+            "security-checker security:check"
         ]
     },
     "conflict": {
