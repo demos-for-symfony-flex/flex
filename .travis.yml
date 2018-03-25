@@ -33,7 +33,7 @@ before_install:
     install --directory ~/.phpenv/versions/$(phpenv version-name)/etc/on-demand;
     mv ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/xdebug.ini ~/.phpenv/versions/$(phpenv version-name)/etc/on-demand;
     php -r "print_r(get_loaded_extensions(TRUE));";
-fi
+  fi
 
 install:
 - composer initialize
