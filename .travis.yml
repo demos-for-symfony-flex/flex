@@ -26,6 +26,7 @@ matrix:
   - php: nightly
 
 before_install:
+- go get -u github.com/jingweno/ccat
 # Disabling Xdebug - Debugger and Profiler Tool for PHP
 - php -r "print_r(get_loaded_extensions(TRUE));";
   if [ -f ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/xdebug.ini ]; then
