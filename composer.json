@@ -1,0 +1,12 @@
+{
+    "type": "project",
+    "license": "MIT",
+    "scripts": {
+        "initialize": [
+            "@composer require symfony/flex"
+        ]
+    },
+    "conflict": {
+        "symfony/symfony": "*"
+    }
+}
