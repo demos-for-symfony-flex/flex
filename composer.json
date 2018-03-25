@@ -1,6 +1,8 @@
 {
+    "name": "symfony-flex-demo/flex",
     "type": "project",
     "license": "MIT",
+    "description": "A minimal Symfony Flex project (script like)",
     "scripts": {
         "initialize": [
             "@composer require symfony/flex"
